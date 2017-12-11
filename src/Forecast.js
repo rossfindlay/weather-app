@@ -8,7 +8,7 @@ class Forecast extends Component {
   }
 
   getIcon(){
-    const url = `http://openweathermap.org/img/w/${this.props.icon}.png`
+    const url = `https://openweathermap.org/img/w/${this.props.icon}.png`
     return url
   }
 
